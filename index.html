@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="LiMeは、龍野高校の生徒・保護者・教職員のためのポータルサイトです。">
+    <title>LiMe | 情報科学部</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="./"><img src="./favicon.ico" alt="logo"></a>
+        <a href="./">
+            <h1>LiMe</h1>
+        </a>
+        <div id="headerpt">
+            <a href="./bulletin_board/">学校からのお知らせ</a>
+            <a href="./timetable/">時間割</a>
+            <a href="./disaster_information/">災害情報</a>
+            <a href="./school_calendar/">年間行事予定</a>
+            <a href="./contact/">お問い合わせ</a>
+        </div>
+        <button id="login">ログイン</button>
+        <img src="" alt="usericon" id="headerUserIcon" style="display: none;">
+    </header>
+    <main>
+        <article id="bulletin_board">
+            <h2>学校からのお知らせ</h2>
+            <div class="bulletin">
+            </div>
+            <button onclick='location.href="./bulletin_board/"' class="artLinkButton">&Gt;もっと見る</button>
+        </article>
+        <article id="timetable">
+            <h2>時間割</h2>
+            <img src="./timetable.png" alt="timetable" id="timetablepng">
+        </article>
+        <article id="disaster_information">
+            <h2>災害情報</h2>
+            <div class="disaster">
+            </div>
+            <button onclick='location.href="./disaster_information/"' class="artLinkButton">&Gt;もっと見る</button>
+        </article>
+        <article id="school_calendar">
+            <h2>年間行事予定</h2>
+            <div class="calendar">
+            </div>
+            <button onclick='location.href="./school_calendar/"' class="artLinkButton">&Gt;もっと見る</button>
+        </article>
+        <article id="cafeteria_reservation">
+            <h2>食堂予約</h2>
+            <img src="./cafeteria_reservation.png" alt="cafeteria_reservation" id="cafeteria_reservationpng">
+        </article>
+    </main>
+    <footer>
+        <address>
+            龍野高等学校 情報科学部<br>
+            〒679-4161 兵庫県たつの市龍野町日山５５４<br>
+            <a href="tel:0791-62-0886">📞 0791-62-0886</a>
+        </address>
+        <p><a>ライセンス</a></p>
+        <p><a>プライバシーポリシー</a></p>
+        <p><a>利用規約</a></p>
+    </footer>
+</body>
+
+</html>
