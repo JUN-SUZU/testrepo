@@ -68,6 +68,7 @@ article {
 }
 article img {
     width: 100%;
+    height: auto;
     background-color: #fcfcfc;
 }
 .artLinkButton {
