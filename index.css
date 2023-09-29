@@ -105,3 +105,16 @@ footer a {
     color: #fff;
     text-decoration: none;
 }
+
+/* media 768px */
+@media (max-width: 768px) {
+    .headerpt {
+        display: none;
+    }
+    main {
+        width: 100%;
+    }
+    article {
+        width: 80%;
+    }
+}
