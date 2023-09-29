@@ -98,7 +98,8 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 15px;
-    line-height: 0.5;
+    line-height: 0.8;
+    font-size: large;
     text-align: center;
 }
 footer a {
@@ -106,8 +107,39 @@ footer a {
     text-decoration: none;
 }
 
-/* media 768px */
-@media (max-width: 768px) {
+/* media 1280px~ desktop */
+@media (min-width: 1280px) {
+    /* main {
+        width: 40%;
+    }
+    article {
+        width: 45%;
+    }
+    -> default*/
+}
+/* media 768~1279px tablet */
+@media (min-width: 768px) and (max-width: 1279px) {
+    main {
+        width: 60%;
+    }
+    article {
+        width: 45%;
+    }
+}
+/* media 768px~1023 smalltablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .headerpt {
+        display: none;
+    }
+    main {
+        width: 80%;
+    }
+    article {
+        width: 45%;
+    }
+}
+/* media 767px smartphone */
+@media (max-width: 767px) {
     .headerpt {
         display: none;
     }
