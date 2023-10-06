@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
@@ -7,100 +7,26 @@
     <title>学校からのお知らせ</title>
     <link rel="icon" href="../favicon.ico">
     <link rel="stylesheet" href="./index.css">
+    <link rel="preload" href="./designer.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <script src="./index.js"></script>
 </head>
 
 <body>
+    <div class="bg_main"></div>
     <header>
         <a href="../"><img src="../favicon.ico" alt="logo"></a>
         <a href="../">
             <h1>LiMe</h1>
         </a>
-        <button id="login">ログイン</button>
+        <button id="login" onclick='window.open("../oauth/","_blank")'>ログイン</button>
         <img src="" alt="usericon" id="headerUserIcon" style="display: none;">
     </header>
-    <div id="board">
+    <div id="board" class="board">
         <h1>学校からのお知らせ</h1>
-        <div class="board_item">
-            <div class="item_title">
-                <h2>タイトル</h2>
-            </div>
-            <div class="item_content">
+        <div class="bullPanel">
+            <div class="bullContent">
+                <h2>タイトル#とか</h2>
                 <span>内容</span>
-            </div>
-            <div class="item_file">
-                <img src="img/file.png" alt="file">
-                <a href="#" download="file">ファイル名</a>
-            </div>
-        </div>
-        <div class="board_item">
-            <div class="item_title">
-                <h2>タイトル</h2>
-            </div>
-            <div class="item_content">
-                <span>内容</span>
-            </div>
-            <div class="item_file">
-                <img src="img/file.png" alt="file">
-                <a href="#" download="file">ファイル名</a>
-            </div>
-        </div>
-        <div class="board_item">
-            <div class="item_title">
-                <h2>タイトル</h2>
-            </div>
-            <div class="item_content">
-                <span>内容</span>
-            </div>
-            <div class="item_file">
-                <img src="img/file.png" alt="file">
-                <a href="#" download="file">ファイル名</a>
-            </div>
-        </div>
-        <div class="board_item">
-            <div class="item_title">
-                <h2>タイトル</h2>
-            </div>
-            <div class="item_content">
-                <span>内容</span>
-            </div>
-            <div class="item_file">
-                <img src="img/file.png" alt="file">
-                <a href="#" download="file">ファイル名</a>
-            </div>
-        </div>
-        <div class="board_item">
-            <div class="item_title">
-                <h2>タイトル</h2>
-            </div>
-            <div class="item_content">
-                <span>内容</span>
-            </div>
-            <div class="item_file">
-                <img src="img/file.png" alt="file">
-                <a href="#" download="file">ファイル名</a>
-            </div>
-        </div>
-        <div class="board_item">
-            <div class="item_title">
-                <h2>タイトル</h2>
-            </div>
-            <div class="item_content">
-                <span>内容</span>
-            </div>
-            <div class="item_file">
-                <img src="img/file.png" alt="file">
-                <a href="#" download="file">ファイル名</a>
-            </div>
-        </div>
-        <div class="board_item">
-            <div class="item_title">
-                <h2>タイトル</h2>
-            </div>
-            <div class="item_content">
-                <span>内容</span>
-            </div>
-            <div class="item_file">
                 <img src="img/file.png" alt="file">
                 <a href="#" download="file">ファイル名</a>
             </div>

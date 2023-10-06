@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #1CB5E0 0%, #000851 100%);
+    background-size: cover;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.bg {
+    background: transparent;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.panel {
+    width: 40%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.abcRioButtonContentWrapper {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 30px !important;
+    background: #000 !important;
+    color: #fff !important;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5) !important;
+}
